@@ -1,0 +1,9 @@
+version: "3.0"
+
+services:
+  posh:
+    image: dveg/poshtest:1.1
+    ports:
+      - 9999:9999
+    volumes:
+      - ./script:/build
