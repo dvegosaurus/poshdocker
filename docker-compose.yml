@@ -1,8 +1,8 @@
 version: "3.0"
 
 services:
-  posh:
-    image: dveg/poshtest:1.1
+  build:
+    context: .
     ports:
       - 9999:9999
     volumes:
