@@ -4,7 +4,7 @@ services:
   poshserver:
     build:
       context: .
-  ports:
-  - 9999:9999
-  volumes:
-  - ./script:/build
+    ports:
+    - 9999:9999
+    volumes:
+    - ./script:/build
